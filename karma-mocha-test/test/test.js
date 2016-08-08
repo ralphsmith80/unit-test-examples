@@ -1,3 +1,5 @@
+// In the mocha example 'require' works, but not for karma
+// so we inlude chai as a dependency in `karma.config.js` so we can `assert`.
 // var assert = require('assert');
 describe('Array', function() {
   describe('#indexOf()', function() {
